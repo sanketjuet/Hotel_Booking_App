@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 var MONGO_URI =
-  "mongodb+srv://Sanket%3AVMwP122NizOfSBHM%40cluster0.p5u5g3q.mongodb.net/mern-rooms";
+  "mongodb+srv://Sanket****************%40cluster0.p5u5g3q.mongodb.net/mern-rooms";
 
 module.exports = connectdb = () => {
   mongoose
@@ -43,7 +43,7 @@ module.exports = mongoose;
 const mongoose = require("mongoose");
 
 var mongoDBURL =
-  "mongodb+srv://Sanket:VMwP122NizOfSBHM@cluster0.p5u5g3q.mongodb.net/mern-rooms";
+  "mongodb+srv://Sanket:****************@cluster0.p5u5g3q.mongodb.net/mern-rooms";
 
 mongoose.connect(mongoDBURL, {
   useUnifiedTopology: true,
